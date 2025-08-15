@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -27,5 +29,13 @@ public class Main {
                 Grados celcius = %.2f°
                 Grados fahrenheit = %d°
                 """.formatted(celsiusDegrees, fahrenheitDegrees));
+
+        //otro ejemplo de formato de textos
+        String mangaName1 = "Vagabond";
+        String autor1 = "Takehiko Inoue";
+        int yearRelease = 1996;
+
+        System.out.println(String.format("%s es un manga publicado en %d, por el namgaka %s.", mangaName1, yearRelease, autor1));
+        
     }
 }
